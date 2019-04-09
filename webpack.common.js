@@ -11,7 +11,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    main: './src/index.js'
+    main: './src/mixture/index.js'
   },
   output: {
     filename: '[name].[hash].js',
@@ -38,7 +38,19 @@ module.exports = {
         }, {
           loader: 'sass-loader'
         }],
-      }
+      },
+      {
+        test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
+        loader: 'file-loader?name=fonts/[name].[hash:8].[ext]',
+      },
+      {
+        test: /\.(jpeg|jpg|png|gif|svg)$/,
+        loader: 'url-loader?limit=8192&name=images/[name].[hash:8].[ext]',
+      },
+      {
+        test: /\.html$/,
+        loader: 'html-loader',
+      },
     ]
   },
   plugins: [

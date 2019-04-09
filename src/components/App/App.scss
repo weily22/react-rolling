@@ -1,0 +1,29 @@
+.mm-reader {
+  background-color: #f5f5f5;
+  padding:15px 0 10px;
+
+  .mm-title {
+    padding-left: 15px;
+  }
+
+  section {
+    background-color: #fff;
+    padding: 15px 10px;
+    margin: 5px 0;
+    transform-style: preserve-3d;
+
+    .img {
+      margin-bottom: 10px;
+      background-color: #ccc;
+      overflow: hidden;
+      perspective: 1px;
+      border:3px solid #000;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      transform: translateZ(-2px) scale(3);
+    }
+  }
+}

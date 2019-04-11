@@ -3,36 +3,34 @@
   padding:15px 0 10px;
   height: 100vh;
   perspective: 1px;
-  perspective-origin: 0 0;
   overflow-y: scroll;
-  overflow-x: hidden;
 
   .mm-title {
     padding-left: 15px;
+  }
+
+  p {
+    padding: 15px 15px 0;
+    color: #666;
   }
 
   section {
     background-color: #fff;
     padding: 15px 10px;
     margin: 5px 0;
-    transform-origin:0 0;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    perspective-origin: 0 0;
 
     .img {
       margin-bottom: 10px;
       background-color: #ccc;
       overflow: hidden;
       border:3px solid #000;
-      height: 250px;
+      position: relative;
     }
 
     img {
       width: 100%;
       height: auto;
-      transform-origin:0;
-      transform: translateY(426px) translateX(-68px) translateZ(-1px) scale(4);
+      transform: translateZ(-0.1px) scale(1.34);
     }
   }
 }

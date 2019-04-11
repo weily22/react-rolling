@@ -17,11 +17,12 @@
 
 
 
+图片与黑框产生的视差效果，根据不同的滑动方向，图片从框内慢慢移入移出
+
 效果如下：
 
-![a](./src/assets/a.png)
+![a](./src/assets/c2.gif)
 
-![b](./src/assets/b.png)
 
 
 

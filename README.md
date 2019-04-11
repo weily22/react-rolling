@@ -6,22 +6,22 @@
 > ```
 > # install dependencies
 > npm install
-> 
+>
 > # serve with hot reload at localhost:3333
 > npm start
-> 
+>
 > # build for production with minification
 > npm run build
-> 
+>
 > ```
 
 
 
 效果如下：
 
-![a](/Users/weiliyan/Desktop/小米/github/react-rolling/src/assets/a.png)
+![a](./src/assets/a.png)
 
-![b](/Users/weiliyan/Desktop/小米/github/react-rolling/src/assets/b.png)
+![b](./src/assets/b.png)
 
 
 
@@ -36,16 +36,16 @@
 >.mm-reader {   /* 滚动容器 */
 >    height: 100vh;
 >    overflow-y: scroll;
->   	perspective: 1px;     /* 重要, 使具有三维位置变换的元素产生透视效果 */
->    
+>    perspective: 1px;     /* 重要, 使具有三维位置变换的元素产生透视效果 */
+>
 >    .img {   /* 包裹图片的容器 */
 >        overflow: hidden;
 >    }
->    
+>
 >    img {   /* 产生视差效果的图片 */
->        width: 100%;
+>       width: 100%;
 >      	height: auto;
->      	transform: translateZ(-0.1px) scale(1.34);    
+>      	transform: translateZ(-0.1px) scale(1.34);
 >    }
 >}
 >

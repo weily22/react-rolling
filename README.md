@@ -21,7 +21,7 @@
 
 效果如下：
 
-![a](./src/assets/c2.gif)
+![a](./src/assets/c7.gif)
 
 
 

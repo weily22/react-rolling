@@ -1,0 +1,3 @@
+*.jsx linguist-language=react
+*.js linguist-language=react
+*.scss linguist-language=sass

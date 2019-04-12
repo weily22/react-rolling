@@ -21,7 +21,7 @@
 
 效果如下：
 
-| 1![a](./src/assets/1.jpg) | 2![a](./src/assets/2.jpg) |
+| 1![a](./src/assets/1.jpg) | 2![a](./src/assets/2.jpg)|
 | ------------------------ | ---- |
 | 3![a](./src/assets/3.jpg) | 4![a](./src/assets/4.jpg)|
 

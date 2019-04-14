@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/weily22/react-rolling/issues"
   },
-  "homepage": "https://weily22.github.io/react-rolling/dist",
+  "homepage": "./",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

@@ -3,8 +3,11 @@
   padding:15px 0 10px;
   height: 100vh;
   perspective: 1px;
-  overflow-y: scroll;
-
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width:2px;
+    background-color:#f7f7f7;
+  }
   .mm-title {
     padding-left: 15px;
   }

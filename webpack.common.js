@@ -3,7 +3,7 @@
  * @Date: 2019/4/4
  * @Description:
  * @Last Modified by: Weily
- * @Last Modified time: 2019/4/4
+ * @Last Modified time: 2019/4/15
 */
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
@@ -52,6 +52,13 @@ module.exports = {
         loader: 'html-loader',
       },
     ]
+  },
+  resolve: {
+    modules: [
+      'node_modules',
+      path.resolve(__dirname, 'src')
+    ],
+    extensions: ['.js', '.jsx', '.scss', '.json'],
   },
   plugins: [
     new HtmlWebPackPlugin({

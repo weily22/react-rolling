@@ -6,7 +6,11 @@ class Card extends Component {
     return (
       <section>
         <dl>
-          <dt className="img img_1"><img src={imgSrc} alt=""/><i className="iconfont icon_claw"/></dt>
+          <dt className="img">
+            <span className="top_hidden"/>
+            {/*<div className="hidden"/>*/}
+            <img src={imgSrc} alt=""/><i className="iconfont icon_claw"/>
+          </dt>
           <dd className="note"><i className="iconfont icon_note"></i><span>{note}</span></dd>
           <dd className="price"><i className="iconfont icon_price"></i><span>{price}</span></dd>
           <dd className="feature"><i className="iconfont icon_feature"></i>{feature}</dd>

@@ -6,6 +6,13 @@
   overflow-x: hidden;
   perspective: 1px;
   position: -webkit-sticky;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
 
   &::-webkit-scrollbar {
     width:2px;
